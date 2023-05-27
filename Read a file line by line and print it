@@ -1,0 +1,16 @@
+L = ["let's\n", "makes\n", "fun\n"]
+ 
+# writing file
+file1 = open('myfile.txt', 'w')
+file1.writelines(L)
+file1.close()
+ 
+# readlines()
+file1 = open('myfile.txt', 'r')
+Lines = file1.readlines()
+ 
+count = 0
+#  newline
+for line in Lines:
+    count += 1
+    print("Line{}: {}".format(count, line.strip()))
