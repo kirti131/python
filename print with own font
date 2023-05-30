@@ -1,0 +1,14 @@
+def printEvenLengthWords(s):
+   # splitting the words in a given string
+   words = s.split()
+   for word in words:
+       
+      # checking the length of words
+      if len(word) % 2 == 0:
+         print(word)
+         
+# input string
+sample = 'this is a test string'
+
+# calling the function
+printEvenLengthWords(sample)
