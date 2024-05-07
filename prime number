@@ -1,7 +1,4 @@
 num = int(input("Enter any number")
-
-
-
 if num == 1:
     print(num, "is not a prime number")
 elif num > 1:
